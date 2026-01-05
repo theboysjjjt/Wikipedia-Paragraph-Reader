@@ -1,8 +1,8 @@
 
 import requests as rq
 from bs4 import BeautifulSoup as bs
-pages = int(input('how many wikipedia pages do you want to search'))
-contact = input("what is your email (This is used only for wikipedias robot policy)")
+pages = int(input('how many wikipedia pages do you want to search') )
+contact = input("what is your email (This is used only for wikipedias robot policy) ")
 headers = {
 'User-Agent': f'TestBot/1.0 (contact: {contact})'
 }
